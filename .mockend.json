@@ -2,6 +2,9 @@
     "User": {
         "title": {
             "string": {}
+        },
+        "age": {
+            "int": {}
         }
     }
 }
