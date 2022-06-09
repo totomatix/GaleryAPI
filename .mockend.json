@@ -1,5 +1,6 @@
 {
     "Folder": {
+        "id": "id",
         "name": {
             "loremWords": {
                 "minLength": 5,
@@ -11,6 +12,7 @@
         }
     },
     "Picture": {
+        "id": "id",
         "name": {
             "loremWords": {
                 "minLength": 5,
