@@ -7,7 +7,7 @@
             }
         },
         "pictures": {
-            "hasMany": "Picture"
+            "hasMay": "Picture"
         }
     },
     "Picture": {
