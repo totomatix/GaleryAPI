@@ -5,6 +5,9 @@
                 "minLength": 5,
                 "maxLength": 20
             }
+        },
+        "pictures": {
+            "hasMany": "Picture"
         }
     },
     "Picture": {
