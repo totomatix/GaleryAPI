@@ -10,8 +10,8 @@
     "Picture": {
         "name": {
             "loremWords": {
-                "minLength": 1,
-                "maxLength": 3
+                "minLength": 5,
+                "maxLength": 20
             }
         },
         "src": {
