@@ -5,9 +5,6 @@
                 "minLength": 1,
                 "maxLength": 3
             }
-        },
-        "pictures": {
-            "hasMany": "Picture"
         }
     },
     "Picture": {
@@ -19,9 +16,6 @@
         },
         "src": {
             "regexp": "http://placeimg.com/640/480/animals?t=[0-9]{13}"
-        },
-        "folder": {
-            "belongsTo": "Folder"
         }
     }
 }
