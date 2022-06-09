@@ -1,13 +1,27 @@
 {
-    "User": {
-        "title": {
-            "string": {}
-        },
-        "age": {
-            "int": {
-                "min": 21,
-                "max": 100
+    "Folder": {
+        "name": {
+            "loremWords": {
+                "minLength": 1,
+                "maxLength": 3
             }
+        },
+        "pictures": {
+            "hasMany": "Picture"
+        }
+    },
+    "Picture": {
+        "name": {
+            "loremWords": {
+                "minLength": 1,
+                "maxLength": 3
+            }
+        },
+        "src": {
+            "regexp": "http://placeimg.com/640/480/animals?t=[0-9]{13}"
+        },
+        "folder": {
+            "belongsTo": "Folder"
         }
     }
 }
